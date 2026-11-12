@@ -1,0 +1,15 @@
+{
+  "name": "the-cloud-cursus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Markdown-cursus en Marp-slides voor graduaat Internet of Things",
+  "scripts": {
+    "slides:build": "node scripts/build-slides.mjs",
+    "slides:pdf": "node scripts/build-slides.mjs --pdf",
+    "slides:preview": "node scripts/build-slides.mjs --preview",
+    "check": "node scripts/check-course.mjs"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.5.1"
+  }
+}
